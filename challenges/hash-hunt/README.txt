@@ -19,4 +19,4 @@ Example: flag{alice_letmein_bob_reuse}
 TOOLS:
   hashid             - identify hash type
   john               - crack hashes
-  /usr/share/wordlists/rockyou.txt.gz  - uncompress first with gunzip
+  wordlist.txt       - wordlist included in this directory

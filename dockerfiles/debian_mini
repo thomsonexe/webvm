@@ -12,7 +12,6 @@ COPY --chown=user:user ./examples /home/user/examples
 COPY --chown=user:user ./challenges /home/user/challenges
 RUN chmod -R +x /home/user/examples/lua
 RUN chmod -R 755 /home/user/challenges
-RUN mkdir -p /usr/share/wordlists && wget -q https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt -O /usr/share/wordlists/rockyou.txt
 # We set WORKDIR, as this gets extracted by Webvm to be used as the cwd. This is optional.
 WORKDIR /home/user/
 # We set env, as this gets extracted by Webvm. This is optional.
