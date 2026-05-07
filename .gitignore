@@ -4,3 +4,10 @@ pnpm-lock.yaml
 build/
 custom-disk-images/*
 !custom-disk-images/.gitkeep
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
